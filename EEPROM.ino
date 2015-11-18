@@ -122,9 +122,10 @@ void LoadDefaults() {
   conf.thrMid8 = 50; conf.thrExpo8 = 50;
   for(uint8_t i=0;i<CHECKBOXITEMS;i++) {conf.activate[i] = 0;}
   
-  conf.activate[BOXHORIZON]  = 1 << 0 | 1 << 1 | 1 << 2;
+  conf.activate[BOXANGLE]  = 1 << 0 | 1 << 1 | 1 << 2;
+  //conf.activate[BOXHORIZON]  = 1 << 0 | 1 << 1 | 1 << 2;
   //conf.activate[BOXHEADFREE] = 1 << 2;
-  conf.activate[BOXBARO]     = 1 << 5;
+  //conf.activate[BOXBARO]     = 1 << 5;
   
   conf.angleTrim[0] = 0; conf.angleTrim[1] = 0;
   conf.powerTrigger1 = 0;
